@@ -53,4 +53,4 @@ int main() {
 ### Submission Guidelines
 Please include your name and a description in a comment at the top of your code files. Please also include your name at the top of your assignment6.txt file. Make sure to include comments for each file and function. 
 
-All files must be submitted via GitHub by 10:00am 8/1. 
+All files must be submitted via GitHub by 10:10am 8/1. 
