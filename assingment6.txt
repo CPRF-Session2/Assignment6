@@ -1,0 +1,9 @@
+Jared Wasserman
+
+1) The issue with this code is that the area is defined with size num before num has a value. It code be fixed by moving "int arr[num];" to after "scanf("%d", &num);". It is also missing a return at the end of main.
+
+2) A segmentation fault is when you access memory that does not exist or is not aviable for your program. For example when working with an array (int arr[5]={1,2,3,4,5};) you could get a segmentation fault if you try arr[100] or arr[23] or arr[-5] because those memory locations are not in the array and are possibly not allowed to be accessed or do not exist.
+
+3) An enum defines a set of named integer constants starting from 0 which is used for having constants that can be represented with a integer value. For example you could have an enum of the days of the week so that the constant MONDAY is equevilant to 1 and SUNDAY is equevilant to 7. A struct is a collection of related variables under one name which is used for creatig larger data types. For example you could have a struct for a user which contains (username, fullname, age, email, and password) so then you could have a variable user1 which will contain all of the values rather than having a array or seperate variables for each artribute. 
+
+4) Yes, you can include an enum within a struct. You would go about this by having "enum Name {VALUE1,VALUE2...} nameForTypdef;" in your structure definition.
