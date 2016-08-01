@@ -1,0 +1,25 @@
+Ashank Kumar
+
+1. num has no value when initialized. So on the second line when the length of the array arr is set to num the array has no value. num is only given an value the 2 lines after where the user is prompted to enter the size of arr, and put a value in arr. Therefore the line: int arr[num] is not in scope and the code will not compile. To fix the code, the line: int arr[num] should put after the scanf. 
+
+1. A segmentation fault is when a program attempts to access memory which it is not allowed. 
+int main()
+{
+	int x;
+	int arr[50]
+	for(int i = 0; i < x; i++)
+		arr[i] = i;
+
+	return 0;
+}
+
+2. A struct allows different types of variables to be grouped togerther into a single group. A enum is a list of strings that are given numerical values.
+
+3.Yes you can create an enum in a struct, it would look like this:
+struct foo
+{
+	enum type {something, something2};
+
+	char test[50];
+	int x;
+};
