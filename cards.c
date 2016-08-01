@@ -47,6 +47,8 @@ if(random == 11){
 	case 3:
 	printf("Jack of Spades\n");
 	break;
+	default:
+	printf("Jack of Errors");
 	}                              
 }
 if(random == 12){
@@ -66,6 +68,9 @@ switch(arr)
   case 3:
  printf("Queen of Spades\n");
  break;
+  default:
+        printf("Queen of Errors");
+
  }                          
 
 }  
@@ -84,6 +89,9 @@ printf("King of Clubs\n");
 	 case 3:
 	 printf("King of Spades\n");
 	  break;
+	 default:
+	  printf("King of Errors");
+
 	   }                          
 	  
 	 }  
@@ -102,6 +110,9 @@ printf("King of Clubs\n");
   case 3:					
    printf("Ace of Spades\n");
 	break;
+  default:
+        printf("Ace of Errors");
+
      }                          
 
 	}	
@@ -121,6 +132,9 @@ break;
  case 3:
  printf("%d of Spades\n",random);
  break;
+ default:
+  printf("%d of Errors",random);
+
     }                          
 
 }
@@ -143,7 +157,6 @@ for(int i=0;i<5;i++){
 //	calls fuction 5 times
 //drawCard(x,arr);
 getsuit(x,arr);
-printf("%d\n",arr);
 //randomizes values again
  x = (rand()%14)+2;
 arr= (rand()%4)+1;
