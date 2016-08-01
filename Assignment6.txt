@@ -1,0 +1,37 @@
+Madeleine Charity 
+
+1. 
+    Is there anything wrong with this code? If so, what is it and how would you fix it?
+
+    #include <stdio.h> 
+    int main() {
+    int num, n;
+    int arr[num];
+    printf(“Enter the size of an array”);
+    scanf(“%d”, &num);
+    for (n=0; n<num; n++) {
+    	arr[n] = 0;
+    }		 
+    }
+    
+    yes, the printf and scanf staments should be before the array declarion and for loop. 
+
+    #include <stdio.h> 
+    int main() {
+    int num, n;
+    printf(“Enter the size of an array”);
+    scanf(“%d”, &num);
+    int arr[num];
+    for (n=0; n<num; n++) {
+    	arr[n] = 0;
+    }		 
+    }
+
+    2. A segmention fault is when the program tries to access memory that it isn't allowed to. For example, if you tried to access arr[1000] if arr was size 10. 
+
+    3. An enum assigns names to a set of constants/integers. A struct is a collection of variables of different types. A struct is used to store information, while an enum us used to make the code easier to read.
+
+    4. yes the code would be:
+    	struct strct {
+		int enum dwarfs { dwarf0, dwarf1...};
+		}
