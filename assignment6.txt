@@ -1,0 +1,34 @@
+/*Rebecca Hale Assignment 6 Part 2*/
+1.  There are problems with the code.  First, num is not given a value 
+before it is assigned as arr's size, which will result in unexpected 
+outputs. While num is eventually given a value, this value does not
+transfer over to the size of arr, which could result in unexpected 
+outputs.  Also, 0 is never returned in the main.
+
+2. A segmentation fault is a runtime error that occurs when the computer
+attempts to access memory that it is not supposed to access for the specific
+function or when the computer tries to access memory that was not allocated
+for whatever program it was trying to run.
+
+3. A struct in C allows variables of different data types to be linked 
+together into a single formation.  On the other hand, enumerated lists 
+(enums) are just lists of symbolic constants and do not contain data 
+types in their lists, they are organized by integers.  
+
+4. An enum can be used within a struct. For example...
+
+#include <stdio.h>
+#include <string.h>
+
+typedef enum {red,white} color;
+typedef struct {
+	char name[100];
+	color c;
+} Flower;
+
+int main(){
+	Flower daisy;
+	strcpy(daisy.name, "DAISY");
+	daisy.c = white;
+	return 0;
+}
