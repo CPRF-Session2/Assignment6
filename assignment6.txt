@@ -1,0 +1,7 @@
+1. There is no return value from main, there must be a "return 0;".
+
+2. It is an error that happens when you try to access memory that does not exist.
+
+3. Structs group up many datatype variables under one name, and enums are constants that define variables to numbers.
+
+4. Yes, inside the struct would have 'enum' as an int category, because enum is a datatype.
