@@ -1,0 +1,15 @@
+Aldin Aksay
+HW6
+
+1. Is there anything wrong with the code?
+There is no return value. To fix it, add "return 0;".
+
+2. What is a segmentation fault? Give an example.
+It is a runtime error which means that the program is trying to access memory that it is not allowed to access.
+
+3. Explain the difference between an enum and a struct.
+A struct is usually for storing a group of variables under one name, while an enum is for defining the variables to number values.
+
+4. Can you include an enum within a struct? If so, how would you go about this.
+Yes, since it is a datatype. Inside the struct, you would have 'enum', but you must also declare a member of that type inside the structure. 
+	
