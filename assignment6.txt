@@ -1,0 +1,31 @@
+Matthew Kellerman
+
+1. 
+The following code is correct execpt for the fact that the int arr[num] should be on the line after the user inputs the number num is going to be. There should also be a return 0; at the end of main.
+
+
+2.
+A segmentation fault is when a program tries to access a memory location that it can't access.
+
+For example, let's say use you use scanf to read a user input number. However, you don't use the & sign to store the number in memory. This will give you a segmentation fault.
+
+3. A struct is a collection of variables with different basic data types that are under one name. An enum defines a set of named integer constants that start at 0 and increment by 1 for each value.
+
+
+4. You can include a enums within a struct. 
+As an example:
+
+struct holiday{
+
+enum holiday {christmas, easter, halloween} day;
+};
+
+int main
+{
+struct holiday h;
+
+h.day= halloween;
+
+return 0;
+}
+
