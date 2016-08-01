@@ -1,0 +1,27 @@
+Drew French
+
+1)	The int arr[num]; should go after the user inputs a value for num.
+
+1)	(yep; 2 questions called "1") A segmentation fault occurs when the program attempts to access an area of memory it doesn't have access to, such as trying to get arr[5] of an array of a size less than 6.
+
+2)	An enum is a numbered list, while a struct is a set of values grouped together without numbering.
+
+3)	Yes;
+
+	struct nums
+	{
+		float f1;
+		float f2;
+		enum ints;
+	}
+
+	struct nums n;
+	n.f1 = 0.5;
+	n.f2 = 1.3;
+	enum ints
+	{
+		zero,
+		one,
+		two,
+		three
+	};
