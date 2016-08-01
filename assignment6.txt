@@ -1,0 +1,18 @@
+Mariposa Lee
+
+1. I'm not sure what the code is trying to do, but every time the for loop runs, the array elements would all be zero. Unless they were trying to aim for that, I don't necessarily see any other errors. It would be nice for there to be a '\n' at the end of "enter the size of an array". But as of now, when the code runs, it will ask the user for the length of an array, and apply 0 to each element up to the size the user inputted. 
+
+2. A segmentation fault is happens when a program tries to access memory that has not been allocated or is outside the access limits of the program. An example would be trying to access beyond an array's limit. The program has an array declared as arr[5], but later it says print arr[6]. Memory has not been allocated enough for the arr[6]. 
+
+3. A struct is usually used to represent a record. It can combine variables of different types and contain it under a single name. Enumerations are used to define a list of variables that have a set value to them, the first item starting from 0. 
+
+4. Yes, a struct can contain enums. One possible way is declaring the enum outside of the struct, then calling it back. For example:
+
+enum fruit {apple, pear};
+
+typedef struct basket{
+enum fruit fruits;
+}
+
+
+
