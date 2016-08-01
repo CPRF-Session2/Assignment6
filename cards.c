@@ -5,7 +5,7 @@
 enum suits {clubs, diamonds, hearts, spades};
 enum value;
 
-int randNum(){
+int randNum(){	/*generates a random number*/
 	int num; 
 	num = rand();
 	return num;
@@ -47,13 +47,13 @@ int main (){
 	int r;
 	int i;
 	int x;
-	srand(time(NULL)); 	/*(???) Randomizing a new number, but numbers are the same. Same card is printed.*/
+	srand(time(NULL));
 	printf("Drawn cards:\n");
 	for (i=0;i<5;i++){
-		r=randNum()%13;
+		r=randNum()%13; 	/* calls funcion that generates num between 1-13 and prints it*/
 		drawCard(r);
 		x=randNum()%4;	
-		getSuit(x);
+		getSuit(x); 	/*calls function that generates a random suit and prints it*/
 		}
 	return 0;
 }
