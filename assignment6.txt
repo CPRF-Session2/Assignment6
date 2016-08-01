@@ -1,0 +1,31 @@
+Jinoo Hong
+
+In a text file `assignment6.txt`, answer the following questions:
+
+1.  Is there anything wrong with this code? If so, what is it and how would you fix it?
+  
+``` 
+#include <stdio.h> 
+int main() {
+  int num, n;
+  int arr[num];
+  printf(“Enter the size of an array”); 
+  scanf(“%d”, &num);
+  for (n=0; n<num; n++) {
+    arr[n] = 0;
+  }
+}
+
+```
+	The input of num has to be before its usage in the size of arr.
+
+
+2. In your own words, what is a segmentation fault? Give an example. 
+	A segmentation fault is when your program has tried to access a section of memory which it is not allowed to access.
+
+3. Explain the difference between an enum and a struct.
+	An enum basically gives a list of variables a value from 0. (values can be explicitly set however). A struct on the otherhand creates a type of data that contains several variables inside.
+
+4. Can you include an enum within a struct? If so, how would you go about this?
+	You would be able to if you set the enum to have a global scope and then use the enum as normal. (I think)
+	
