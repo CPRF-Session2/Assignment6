@@ -1,0 +1,5 @@
+Albert Zhang
+1. The size of the array is invalid because it is not initialized.I would just put line 3 onto line 6 to fix it.
+2. A segmentation fault is when a program trys to access an area of memory that it is not allowed to access.
+3. A struct can group variables of different data types together. An enum is when each value is defined as a different constant.
+4. Yes, it is possible to include an enum in a struct, by declaring the enum outside the structure.
