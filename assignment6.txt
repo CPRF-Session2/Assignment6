@@ -1,0 +1,14 @@
+Priyanka Musti
+
+1.
+Yes there is no return 0 statement at the bottom of the code, you could fix this by putting ruturn 0 at the bottom of the code. Also, num isnt given a value before it is put in as the array size
+
+2.
+A segmentation fault is when you the program while trying to run the program tries to access data it doesn't have access to.
+
+3.
+A struct is for storing variables while an emun is for putting values in the variables.
+
+4.
+Yes you can include an enum within a struct. You would just have to declare it inside of the struct.
+
