@@ -4,7 +4,7 @@
 To gain a solid understanding of structures and enums.
 
 ### Part 1
-1. Write a program `cards.c` that implements a deck of cards.  Implement the suits as an enum, and the cards as a struct containing the value and suit.  Implement a function `drawCard()` to generate a random card and `getSuit()` to print out the the suit properly.  In main, draw and print out 5 cards in the following format:
+1. Write a program `cards.c` that implements a deck of cards.  Implement the suits as an enum, and the cards as a struct containing the value and suit.  Implement a function `drawCard()` to generate a random card and `getSuit()` to print out the suit properly.  In main, draw and print out 5 cards in the following format:
 
 ```
 Drawn Cards:
